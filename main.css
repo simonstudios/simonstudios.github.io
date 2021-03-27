@@ -1,0 +1,8 @@
+.width-constrained {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#app-store-download {
+    max-width: 200px;
+}

@@ -3,6 +3,20 @@
     margin: auto;
 }
 
-/* #app-store-download {
-    max-width: 200px;
-} */
+.card {
+    max-width: 25em;
+}
+
+.card-img-top {
+    max-height: 75px;
+    max-width: 75px
+}
+
+.card a {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

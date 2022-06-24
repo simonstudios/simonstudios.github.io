@@ -1,6 +1,6 @@
 const businessList = document.querySelector('ul');
 
-fetch('https://limitless-dawn-23169.herokuapp.com/businesses')
+fetch('https://richmond-card-web-server.herokuapp.com/businesses')
     .then(businesses => businesses.json())
     .then(businesses => {
         for (const business of businesses) {
